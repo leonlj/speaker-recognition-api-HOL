@@ -17,18 +17,18 @@ By using your browser's built-in audio recording capabilities, and a custom vers
 1. Please download demo Node.js code from [Demo](https://leonstoragesharing.blob.core.chinacloudapi.cn/saphack/speaker-recognition-api_test.zip) and unzip
 
 2. In the uzipped folder, there are two HTML file index.html and demo.html. Please open two html with your default browser. You can see the demo UI has been ready already. 
-![index.html](imgs\img1.jpg "index.html")
-![Demo web app UI](imgs\img2.jpg "demo.html")
+![index.html](imgs/img1.jpg "index.html")
+![Demo web app UI](imgs/img2.jpg "demo.html")
 
 3. When you click the button there isn't any response. Now, please add the function to build speaker recognition solution demo. 
 
 4. Please launch your Visual Studio Code, in `File -> Open Folder` select the folder you just unzipped.
 
 5. Now, you must be able to see the files in the folder have been uploaded in VS code 
-![vs code folder](imgs\img3.jpg)
+![vs code folder](imgs/img3.jpg)
 
 6. Please install extension in VS Code. Select "Extension" menu from the menu in left side and in search box, please input "Live Server"
-![Live Server](imgs\img4.jpg)
+![Live Server](imgs/img4.jpg)
 
 7. Now, you can take advantage of VS code to edit and debug Node.js code. 
 
@@ -56,7 +56,7 @@ function getVerificationPhrases() {
 }
 ```
 2. Press `clt+Shift+P` to open the command box, and then input "Live Server: Change Live Server Workspace" and select it. Please select folder as Live Server workspace
-![Live Server](imgs\img5.jpg)
+![Live Server](imgs/img5.jpg)
 
 3. Select index.html file, and press `clt+Shift+P` to open the command box, and then input "Live Server: Open with Live Server" 
 
@@ -184,10 +184,10 @@ function verifyProfile(blob){
 7. Please use "Live Server" in VS Code, same debug method we used in Step #3 and #4
 
 8. Please click "list verfication phrase" and then "Create Verfication Profile" and select a sentence and say it clearly for first enrollment. 
-![Enrollment](imgs\img7.jpg)
+![Enrollment](imgs/img7.jpg)
 
 9. Keep enrollment by clicking "Create Verfication Profile", after 3 times, you will get enrolled status. 
-![Enrollment](imgs\img8.jpg)
+![Enrollment](imgs/img8.jpg)
 **Note: If you didn't get "enrolled" status for successful enrollment, you couldn't do the verification** 
 
 10. Now, let's try "Verify" Please say exactly same Sentence
@@ -399,10 +399,10 @@ function pollForIdentification(location){
 2. Select "Create Identification Profile" 
 
 3. Please say something about 30 secs for enrolling. And give a name to the profile
-![Enrollment](imgs\img9.jpg)
+![Enrollment](imgs/img9.jpg)
 
 4. Selelct "Identify" and say something about 15-30 secs
-![Identified](imgs\img10.jpg) 
+![Identified](imgs/img10.jpg) 
 
 5. You can also delete all profiles with following code
 ```
