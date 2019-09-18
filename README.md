@@ -24,7 +24,7 @@ By using your browser's built-in audio recording capabilities, and a custom vers
 
 4. Please launch your Visual Studio Code, in `File -> Open Folder` select the folder you just unzipped.
 
-5. Now, you must be able to see the files in the folder have been uploaded in VS code 
+5. Now, you must be able to see the files in the folder have been loaded in VS code 
 ![vs code folder](imgs/img3.jpg)
 
 6. Please install extension in VS Code. Select "Extension" menu from the menu in left side and in search box, please input "Live Server"
